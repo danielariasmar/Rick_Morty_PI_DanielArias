@@ -1,0 +1,28 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.boton{
+    margin:6px 4px 0px 4px;
+    font-weight: 700;
+    background-color: beige;
+    border: none;
+    padding: 2px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-decoration: none; /* Quitar subrayado */
+    color: inherit; /* Heredar el color del texto */
+}
+
+.boton:hover{
+    transform: scale(1.1);
+    background-color: yellow;
+    
+}
+
+.active{
+    transform: scale(1.1);
+    background-color: yellow;
+}

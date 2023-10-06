@@ -1,0 +1,56 @@
+body {
+  margin: 10px 10px;
+  background-image: url("https://cdn.wallpapersafari.com/53/72/cMIO9o.jpg");
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el cuerpo */
+  background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+  background-attachment: fixed; /*Fija la imagen de fondo para que no se desplace con el contenido */
+  min-width: 400px;
+}
+
+p {
+  color: black;
+}
+
+h2 {
+  margin-top: 30px;
+  color: #ffed95;
+  font-size: 26px;
+}
+
+.container {
+  margin-top: 15px;
+}
+
+.global {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Celular */
+@media (max-width: 767px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px 10px;
+    justify-items: center; /* Centra horizontalmente las tarjetas */
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px 10px;
+  }
+}
+
+/* PC */
+@media (min-width: 1024px) {
+  /* Estilos para computadoras de escritorio */
+  .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px 10px;
+  }
+}

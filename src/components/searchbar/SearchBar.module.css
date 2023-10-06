@@ -1,0 +1,31 @@
+.input {
+    background: rgba(192, 192, 192, 0.6);
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+    color: white;
+    width: 250px;
+    font-size: 17px;
+    margin-right: 4px;
+    margin-left: 14px;
+ }
+
+ .input:focus {
+    background:  rgba(192, 192, 192);; /* Cambia el fondo cuando está seleccionado */
+ }
+
+.boton{
+    margin:0 4px;
+    font-weight: 700;
+    background-color: beige;
+    border: none;
+    padding: 2px 12px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.boton:hover{
+    transform: scale(1.1);
+    background-color: yellow;
+    
+}

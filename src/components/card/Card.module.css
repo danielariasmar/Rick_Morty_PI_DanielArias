@@ -1,0 +1,86 @@
+.container {
+    margin: 2px 4px 0px 4px;
+    background-color: rgba(192, 192, 192, 0.767);
+    border-radius: 5px;
+    width: 100%;
+    max-width: 430px;
+    padding-bottom: 5px;
+}
+
+h3, h2{
+    margin: 0;
+    text-transform: uppercase;
+}
+
+p  {
+    margin: 0;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.imgContainer {
+
+    position: relative;
+    width: 100%; 
+    text-align: center;
+    padding-bottom: 5px;
+    
+}
+
+@media (max-width: 767px) {
+    
+    .imgContainer img {
+        max-width: 300px;
+    }
+}
+
+@media (min-width: 767px) {
+    
+    .imgContainer img {
+        max-width: 90%; /* Ajusta el ancho de la imagen según tus necesidades */
+        height: auto; /* Mantiene la proporción de aspecto de la imagen */
+        border-radius: 5px;
+        
+      }
+}
+
+
+.name {   
+  position: absolute;
+  bottom: 8px;
+  left: 50%; /* Centra horizontalmente el nombre */
+  transform: translateX(-50%); /* Centra el nombre horizontalmente */
+  color: black;
+  background-color: rgba(255, 255, 0, 0.85); /* Amarillo con 85% de transparencia */
+  border-radius: 5px;
+  padding: 5px;
+  margin: 0 0 5px 0; /* Añade margen cero para evitar problemas de espaciado */
+  white-space: nowrap; /* Evita que el nombre se divida en múltiples líneas */
+}
+
+.name:hover {
+    font-size: 25px;
+  } 
+
+.boton{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-weight: 700;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.boton:hover{
+    background-color: rgba(255, 255, 0, 0.85);
+    border: none;
+    transform: scale(1.1);
+}
+
+.propertisContainer {
+    background-color: beige;
+    margin: 0;
+}
