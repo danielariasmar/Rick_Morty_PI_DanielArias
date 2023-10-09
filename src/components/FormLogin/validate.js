@@ -18,16 +18,7 @@ const validate = (form, setErrors, errors) => {
   } else {
     totalErrors.password = "";
   }
-
-//   if (!form.password)
-//     setErrors({ ...errors, password: "Contraseña obligatoria" });
-//   else if (form.password.length < 5) {
-//     setErrors({
-//       ...errors,
-//       password: "La contraseña debe tener almenos 5 caracteres",
-//     });
-//   } else setErrors({ ...errors, password: "" });
-
+  
   setErrors(totalErrors); // Actualiza los errores una vez con las correcciones
 };
 
